@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>FoxLab</title>
+        <link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+        <meta name="description" content="FoxLab">
+        <meta name="keywords" content="Fox Random, lab" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="img/favicon.png" />
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <script src="js/main.js"></script>
+<!-- content begins here !-->
+        <iframe class="bg_frame" id="bg_iframe" src="http://www.incity.ru/" scrolling="auto"></iframe>
+        <div class="floating_pan" id="floating_pan">
+        <div class="btn_try_on" onclick="openPopup();">Try on!</div>
+        or 
+        + Add to collection <div class="pos_count">4</div></div>
+        <div class="popup_bg" id="popup_bg">
+        <div class="popup">
+            <div class="popup_capition">Virtual Fitting Room</div>
+            <div class="viewport">
+                    <video autoplay="true" id="videoElement">
+                    </video>
+                    <div class="try_item"></div>
+            </div>
+            <div class="popup_control_pan">
+                
+            </div>
+            <div class="btn_close" onclick="closePopup();">X</div>
+            <div class="viewport_btn btn_3d" onclick="switchTo3d();">3D VIEW</div>
+            <div class="viewport_btn btn_video" onclick="switchToWebcam();">WEBCAM</div>
+            <div class="viewport_btn btn_share" onclick="shareLook();">SHARE MY LOOK</div>
+        </div>
+        </div>
+<!-- end of content !-->
+    </body>
+</html>

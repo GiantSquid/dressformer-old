@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+}
+iframe {
+	overflow: hidden;
+}
+
+.bg_frame {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+}
+.floating_pan {
+	display: block;
+	background-color: red;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.pos_count {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 15px;
+	color: red;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+}
+.popup_bg {
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.popup {
+	display: block;
+	position: fixed;
+	height: 680px;
+	width: 1000px;
+	top: 50%;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: -340px;
+	background-color: #fff;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	border-top-right-radius: 24px;
+	overflow: hidden;
+}
+.btn_close {
+	display: block;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(256, 256, 256, 0.5);
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+	box-shadow: inset #000 0 0 0 2px;
+	border-radius: 20px;
+	margin-right: 4px;
+	margin-top: 4px;
+	cursor: pointer;
+}
+.btn_close:hover {
+	background-color: #000;
+	color: #fff;
+}
+.popup_capition {
+	line-height: 40px;
+	padding-left: 40px;
+
+}
+.popup_control_pan {
+	position: absolute;
+	top: 0px;
+	display: block;
+	width: 320px;
+	height: 100%;
+	background-color: #eaeaea;
+}
+.viewport {
+	position: absolute;
+	top: 0px;
+	left: 140px;
+	display: block;
+	width: 320px;
+	height: 100%;
+}
+#videoElement {
+    width: 920px;
+    height: 680px;
+    background-color: #ccc;
+}
+.try_item {
+	position: absolute;
+	height: 480px;
+	width: 353px;
+	top: 160px;
+	left: 320px;
+	background-image: url(../img/t_shirt.png);
+	background-repeat: no-repeat;
+}
+.viewport_btn {
+	position: absolute;
+	padding-left: 14px;
+	padding-right: 14px;
+	line-height: 40px;
+	background-color: rgba(256, 256, 256, 0.5);
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	box-shadow: inset #000 0 0 0 2px;
+	cursor: pointer;
+}
+.viewport_btn:hover {
+	background-color: #000;
+	color: #fff;
+}
+.btn_3d {
+	top: 8px;
+	left: 328px;
+	border-top-left-radius: 12px;
+}
+.btn_video {
+	top: 8px;
+	left: 423px;
+	border-bottom-right-radius: 12px;
+}
+.btn_share {
+	bottom: 8px;
+	right: 8px;
+	border-top-left-radius: 12px;
+}
