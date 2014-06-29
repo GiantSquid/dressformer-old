@@ -14,28 +14,41 @@
     <body>
         <script src="js/main.js"></script>
 <!-- content begins here !-->
-        <iframe class="bg_frame" id="bg_iframe" src="http://www.incity.ru/" scrolling="auto"></iframe>
+        <iframe class="bg_frame" id="bg_iframe" src="http://www.kiraplastininastyle.ru/dress.php" scrolling="auto"></iframe>
         <div class="btn settings_pan" id='settings_pan' onclick="bgUrlControl();">&#xf0c3;&nbsp; Set testing URL</div>
-        <div class="floating_pan" id="floating_pan">
-        <div class="btn btn_try_on" onclick="openPopup();">&#xf1ae;&nbsp; Try on!</div>
-        <div class="btn btn_to_collection">&#xf004;&nbsp; Add to my collection &nbsp;</div>
-        </div>
+        <div class="btn_try_on" id="floating_pan" onclick="openPopup();">&#xf1ae;&nbsp; Try on!</div>
         <div class="popup_bg" id="popup_bg">
-        <div class="popup">
-            <div class="popup_capition">Virtual Fitting Room</div>
+        <div class="p_cpan p_left_cpan">
+            <div class="cpan_btn btn_my_bodyprofile"><div class="btn_icon">&#xf007;</div>My Body Profile</div>
+            <div class="cpan_btn btn_my_bodyprofile"><div class="btn_icon">&#xf183;</div>My Outfeet</div>
+            <div class="cpan_btn btn_my_bodyprofile"><div class="btn_icon">&#xf1b3;</div>My Collections</div>
+            <div class="cpan_btn"><div class="btn_icon">&#xf1e0;</div>Share This Look</div>
+            <div class="cpan_btn"><div class="btn_icon">&#xf164;</div>Stylist Council</div>
+            <hr width="60%" noshade color="#e0e0e0" size="1px" />
+            <div class="cpan_btn btn_3d_view"><div class="btn_icon">&#xf1b2;</div>3D View</div>
+            <div class="cpan_btn btn_webcam_view"><div class="btn_icon">&#xf03d;</div>Webcam View</div>
+            <div class="cpan_btn btn_webcam_view"><div class="btn_icon">&#xf1de;</div>Customize</div>
+            <hr width="60%" noshade color="#e0e0e0" size="1px" />
+            <div class="cpan_btn btn_3d_view"><div class="btn_icon">&#xf0f9;</div>Help!</div>
+            <div class="cpan_btn btn_3d_view"><div class="btn_icon">&#xf129;</div>About...</div>
+            <div class="powered_by">Powered by <b>Dressformer</b> &copy;</div>
+        </div>
+        <div class="viewport_history">
+            <div class="history_back">&#xf104;</div>
+            <div class="history_forward">&#xf105;</div>
+        </div>
+        <div class="general_viewport">
             <div class="viewport">
-                    <video autoplay="true" id="videoElement">
-                    </video>
                     <div class="try_item"></div>
             </div>
-            <div class="popup_control_pan">
-                
-            </div>
-            <div class="btn_close" onclick="closePopup();">&#xf00d;</div>
-            <div class="viewport_btn btn_3d" onclick="switchTo3d();">&#xf1b2;&nbsp; 3D VIEW</div>
-            <div class="viewport_btn btn_video" onclick="switchToWebcam();">&#xf03d;&nbsp; WEBCAM</div>
-            <div class="viewport_btn btn_share" onclick="shareLook();">&#xf1e0;&nbsp; SHARE MY LOOK</div>
         </div>
+        <div class="p_cpan p_right_cpan">
+            <div class="cpan_btn back_to_shopping" onclick="closePopup();">
+                <div class="btn_icon">&#xf112;</div>Back To Shopping
+            </div>
+            <div class="add_to_cart">&#xf07a;</div>
+            <div class="cart_plus">&#xf067;</div>
+        <div>
         </div>
 <!-- end of content !-->
     </body>
