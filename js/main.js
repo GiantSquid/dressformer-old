@@ -8,6 +8,9 @@ function openPopup() {
 	document.getElementById('floating_pan').style.display = 'none';
 	document.getElementById('settings_pan').style.display = 'none';
 }
+function viewportFull() {
+    document.getElementById('viewport').className = 'viewport_full animation';
+}
 function switchToWebcam() {
 	var video = document.querySelector('#videoElement');
 	navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;

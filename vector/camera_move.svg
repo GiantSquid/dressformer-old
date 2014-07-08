@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="190px" viewBox="0 0 200 190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(10.000000, 0.000000)">
+            <path d="M60,0 L60,60 L120,60 L120,0 L60,0 Z M60,60 L60,120 L120,120 L120,60 L60,60 Z M0,60 L0,120 L60,120 L60,60 L0,60 Z M120,60 L120,120 L180,120 L180,60 L120,60 Z M60,120 L60,180 L120,180 L120,120 L60,120 Z" id="Rectangle-1" fill="#F3F3F3" sketch:type="MSShapeGroup"></path>
+            <ellipse id="Oval-1" fill="#333333" sketch:type="MSShapeGroup" cx="90.4225352" cy="89.5927602" rx="4.22535211" ry="4.07239819"></ellipse>
+            <path d="M92.6760563,157.597129 L98.028169,157.597129 L90,167.782805 L81.971831,157.597129 L86.7292645,157.597129 L86.7292645,131.234202 L92.6760563,131.234202 L92.6760563,157.597129 Z M92.6760563,21.5883913 L98.028169,21.5883913 L90,11.4027149 L81.971831,21.5883913 L86.7292645,21.5883913 L86.7292645,47.9513185 L92.6760563,47.9513185 L92.6760563,21.5883913 Z" id="Triangle-1" fill="#333333" sketch:type="MSShapeGroup"></path>
+            <path d="M22.0781808,86.2799306 L22.0781808,81.4625999 L11.8217706,89.5927602 L22.0781808,97.7229205 L22.0781808,92.3022715 L48.5932854,92.3022715 L48.5932854,86.2799306 L22.0781808,86.2799306 Z M158.76689,92.3022715 L158.76689,97.7229205 L169.0233,89.5927602 L158.76689,81.4625999 L158.76689,86.2799306 L132.251785,86.2799306 L132.251785,92.3022715 L158.76689,92.3022715 L158.76689,92.3022715 Z" id="Triangle-4" fill="#333333" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

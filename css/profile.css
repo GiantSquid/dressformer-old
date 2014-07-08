@@ -1,0 +1,79 @@
+.profiler {
+    display: block;
+    position: absolute;
+    height: 680px;
+    width: 520px;
+    top: 0px;
+    left: 0px;
+    margin-top: -680px;
+    background-color: #fff;
+    overflow: hidden;
+}
+#profile:target {
+    margin-top: 0px;
+}
+.prflr_preview {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 260px;
+    width: 520px;
+    background-color: #ccc;
+}
+.prflr_controls {
+    position: absolute;
+    top: 260px;
+    left: 0px;
+    height: 290px;
+    width: 520px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.prflr_user_id {
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    height: 200px;
+    width: 520px;
+    background-color: #ccc;
+}
+.prflr_slider_name {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+.prflr_slider_drag_area {
+    display: inline-block;
+    height: 4px;
+    width: 390px;
+    border-radius: 2px;
+    background-color: #333;
+}
+.prflr_slider_drag {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 14px;
+    border: #333 4px solid;
+    background-color: #ccc;
+    margin-top: -12px;
+    cursor: pointer;
+}
+.prflr_slider_drag:hover {
+    background-color: #fff;
+}
+#pr_sd_1 {
+    left: 130px;
+}
+#pr_sd_2 {
+    left: 120px;
+}
+#pr_sd_3 {
+    left: 170px;
+}
+#pr_sd_4 {
+    left: 100px;
+}
+#pr_sd_5 {
+    left: 200px;
+}
