@@ -268,24 +268,6 @@ b {
 	color: #000;
 	background-color: #f6f6f6;
 }
-.add_to_cart {
-	font-size: 40px;
-	line-height: 80px;
-	height: 80px;
-	width: 100%;
-	background-color: white;
-	text-align: center;
-	color: #000;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	margin-bottom: 30px;
-	cursor: pointer;
-}
-.add_to_cart:hover {
-	background-color: #333;
-	color: white;
-}
 .powered_by {
 	position: absolute;
 	width: 100%;
